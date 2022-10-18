@@ -20,7 +20,6 @@
     height: 200px;
     weight: 200px;
     display: flex; font-size: 30px;
-    justify-content: space-between;
     margin: 10px 0 10px 0;
     text-align: center;
     background-color: #0017bb;
@@ -33,7 +32,6 @@
     weight: 200px;
     display: flex; font-size: 30px;
     box-sizing: border-box;
-    justify-content: space-between;
     margin: 10px 0 10px 0;
     text-align: center;
     background-color: #0017bb;
@@ -46,7 +44,6 @@
     weight: 200px;
     display: flex; font-size: 30px;
     box-sizing: border-box;
-    justify-content: space-between;
     margin: 10px 0 10px 0;
     text-align: center;
     background-color: #0017bb;
