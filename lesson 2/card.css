@@ -1,0 +1,68 @@
+.card {
+    background: #2269bb;
+    box-sizing: border-box;
+    width: 900px;
+    height: 200px;
+    margin: 30px auto 30px auto;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block1 {
+    box-sizing: border-box;
+    height: 200px;
+    weight: 200px;
+    display: flex; font-size: 30px;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    background-color: #0017bb;
+    color: aliceblue;
+    align-items: center;
+    padding: 50px;
+}
+.block2{
+    height: 200px;
+    weight: 200px;
+    display: flex; font-size: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    background-color: #0017bb;
+    color: aliceblue;
+    align-items: center;
+    padding: 50px;
+}
+.block3{
+    height: 200px;
+    weight: 200px;
+    display: flex; font-size: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    background-color: #0017bb;
+    color: aliceblue;
+    align-items: center;
+    padding: 50px;
+}
+.card3{
+    background: #2269bb;
+    box-sizing: border-box;
+    width: 900px;
+    height: 200px;
+    margin: 30px auto 30px auto;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+}
