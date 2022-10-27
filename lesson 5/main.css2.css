@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.box1 {
+    display: flex;
+    background: #b2abaf;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.minibox1 {
+    width: 70%;
+    height: 600px;
+    margin: 0 10px 0 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.child {
+    background: #b2abaf;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.child1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.child2 {
+
+    background: #b2abaf;
+    width: 31.5%;
+    height: 380px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.minibox2 {
+    background: #b2abaf;
+    width: 30%;
+    margin: 0 20px 0 10px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 0) and (max-width: 976px) {
+
+
+    .conteiner {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .box1 {
+        display: flex;
+        width: auto;
+        background: #b2abaf;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .box2 {
+        width: auto;
+        height: 530px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .minibox1 {
+        width: auto;
+        height: 1000px;
+        margin-right: 20px;
+
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child {
+        background: #b2abaf;
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .child1 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .child2 {
+
+        background: #b2abaf;
+        width: 31.5%;
+        height: 200px;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .minibox2 {
+        background: #b2abaf;
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 20px;
+    }
+
+}
